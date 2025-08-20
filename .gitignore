@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+newsbot.log
+news_state.json
+.DS_Store
