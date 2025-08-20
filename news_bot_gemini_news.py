@@ -32,8 +32,11 @@ NEWS_HL = os.getenv("NEWS_HL", "ru")
 NEWS_GL = os.getenv("NEWS_GL", "RU")
 NEWS_CEID = os.getenv("NEWS_CEID", "RU:ru")
 
-NEWS_TAGS_RAW = os.getenv("NEWS_TAGS", "технологии, искусственный интеллект, наука")
-MAX_PER_RUN = int(os.getenv("MAX_PER_RUN", "6"))
+NEWS_TAGS_RAW = os.getenv(
+    "NEWS_TAGS",
+    "ДНР, ЛНР, Исторические территории, Новые территории, Пушилин, Денис Пушилин, Сальдо, Пасичник",
+)
+MAX_PER_RUN = int(os.getenv("MAX_PER_RUN", "5"))
 MAX_PER_TAG = int(os.getenv("MAX_PER_TAG", "2"))
 MAX_AGE_HOURS = int(os.getenv("MAX_AGE_HOURS", "24"))
 
